@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
                 (escolhaUsuario == "papel" && escolhaApp == "pedra") ||
                 (escolhaUsuario == "pedra" && escolhaApp == "tesoura")
         ){
-            textoResultado.setText("Você ganhou :)");
+            textoResultado.setText("Você ganhou ;)");
         }else {
-            textoResultado.setText("Empatamos");
+            textoResultado.setText("Empatamos!");
         }
 
         System.out.println( "item clicado: " + escolhaApp );
