@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         ){
             textoResultado.setText("Você ganhou! ;)");
         }else {
-            textoResultado.setText("Empatamos!");
+            textoResultado.setText("Empatamos! xD");
         }
 
         System.out.println( "item clicado: " + escolhaApp );
