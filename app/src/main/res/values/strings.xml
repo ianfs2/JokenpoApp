@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jokenpô</string>
+    <string name="textoEscolhaDoApp">Escolha do Aplicativo</string>
+    <string name="cdImagemPadrão">Imagem em branco da escolha do aplicativo</string>
+    <string name="textoResultado">Escolha uma opção abaixo</string>
+    <string name="textByIan">By Ian Fernandes</string>
+    <string name="cdTesoura">Imagem de uma tesoura</string>
+    <string name="cdPapel">Imagem de um papel</string>
+    <string name="cdPedra">Imagem de uma pedra</string>
+</resources>
