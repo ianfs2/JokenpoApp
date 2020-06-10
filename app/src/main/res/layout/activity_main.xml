@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -25,7 +25,7 @@
         android:contentDescription="@string/cdImagemPadrão"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
         app:srcCompat="@drawable/padrao" />
 
     <TextView
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imgResultado" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgPedra"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
@@ -51,19 +51,19 @@
         app:srcCompat="@drawable/pedra" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgPapel"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/cdPapel"
         android:onClick="selecionadoPapel"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imgTesoura"
+        app:layout_constraintStart_toEndOf="@+id/imgPedra"
         app:layout_constraintTop_toBottomOf="@+id/textoResultado"
         app:srcCompat="@drawable/papel" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgTesoura"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
@@ -88,7 +88,7 @@
         app:layout_constraintGuide_percent="0.95" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/ByIan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
