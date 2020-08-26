@@ -7,4 +7,5 @@
     <string name="cdTesoura">Imagem de uma tesoura</string>
     <string name="cdPapel">Imagem de um papel</string>
     <string name="cdPedra">Imagem de uma pedra</string>
+    <string name="textRegras">Regras do jogo</string>
 </resources>
